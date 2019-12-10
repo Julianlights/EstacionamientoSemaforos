@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="900.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vehiculo.concurrencia.controller.VehiculoController">
+   <children>
+      <ImageView fitHeight="76.0" fitWidth="136.0" layoutX="715.0" layoutY="42.0">
+         <image>
+            <Image url="@carro5.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="714.0" layoutY="39.0" prefHeight="65.0" prefWidth="155.0" style="-fx-background-color: #7F3F61;">
+         <effect>
+            <BoxBlur height="130.7" width="196.25" />
+         </effect>
+         <children>
+            <Label fx:id="lbentrada" layoutX="59.0" layoutY="37.0" text="entrada" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="43.0" layoutY="185.0" prefHeight="240.0" prefWidth="814.0" style="-fx-background-color: #228B22;">
+         <effect>
+            <DropShadow height="11.67" radius="11.555" spread="0.09" width="36.55" />
+         </effect>
+         <children>
+            <Button fx:id="Boton" layoutX="350.0" layoutY="-3.0" mnemonicParsing="false" onMouseClicked="#comenzar" text="Comenzar">
+               <font>
+                  <Font name="Agency FB Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow radius="7.6675" spread="0.11" width="11.67" />
+               </effect>
+            </Button>
+         </children>
+      </Pane>
+      <ImageView fitHeight="201.0" fitWidth="371.0" layoutX="56.0" layoutY="207.0">
+         <image>
+            <Image url="@estacionamiento2.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" contrast="-0.12" hue="-0.28" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="201.0" fitWidth="371.0" layoutX="451.0" layoutY="205.0" rotate="180.0">
+         <image>
+            <Image url="@estacionamiento2.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
+      <Label layoutX="759.0" layoutY="14.0" prefHeight="26.0" prefWidth="65.0" text="ENTRADA" textFill="#fcfcfc">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb1" layoutX="96.0" layoutY="264.0" text="Vacio1" textFill="WHITE" />
+      <Label fx:id="lb2" layoutX="169.0" layoutY="264.0" text="Vacio2" textFill="WHITE" />
+      <Label fx:id="lb3" layoutX="232.0" layoutY="264.0" text="Vacio3" textFill="WHITE" />
+      <Label fx:id="lb4" layoutX="302.0" layoutY="264.0" text="Vacio4" textFill="WHITE" />
+      <Label fx:id="lb5" layoutX="357.0" layoutY="264.0" text="Vacio5" textFill="WHITE" />
+      <Label fx:id="lb6" layoutX="479.0" layoutY="264.0" text="Vacio6" textFill="WHITE" />
+      <Label fx:id="lb7" layoutX="536.0" layoutY="264.0" text="Vacio7" textFill="WHITE" />
+      <Label fx:id="lb8" layoutX="600.0" layoutY="264.0" text="Vacio8" textFill="WHITE" />
+      <Label fx:id="lb9" layoutX="667.0" layoutY="264.0" text="Vacio9" textFill="WHITE" />
+      <Label fx:id="lb10" layoutX="738.0" layoutY="264.0" text="Vacio10" textFill="WHITE" />
+      <Label fx:id="lb11" layoutX="96.0" layoutY="330.0" text="Vacio11" textFill="WHITE" />
+      <Label fx:id="lb14" layoutX="295.0" layoutY="330.0" text="Vacio14" textFill="WHITE" />
+      <Label fx:id="lb13" layoutX="232.0" layoutY="330.0" text="Vacio13" textFill="WHITE" />
+      <Label fx:id="lb12" layoutX="160.0" layoutY="330.0" text="Vacio12" textFill="WHITE" />
+      <Label fx:id="lb20" layoutX="742.0" layoutY="330.0" text="Vacio20" textFill="WHITE" />
+      <Label fx:id="lb16" layoutX="474.0" layoutY="330.0" text="Vacio16" textFill="WHITE" />
+      <Label fx:id="lb15" layoutX="353.0" layoutY="330.0" text="Vacio15" textFill="WHITE" />
+      <Label fx:id="lb18" layoutX="600.0" layoutY="330.0" text="Vacio18" textFill="WHITE" />
+      <Label fx:id="lb17" layoutX="536.0" layoutY="330.0" text="Vacio17" textFill="WHITE" />
+      <Label fx:id="lb19" layoutX="667.0" layoutY="330.0" text="Vacio19" textFill="WHITE" />
+      <Label layoutX="762.0" layoutY="107.0" prefHeight="26.0" prefWidth="65.0" text="SALIDA" textFill="#fcfcfc">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="181.0" layoutY="7.0" text="ESTACIONAMIENTO">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <InnerShadow height="31.1" radius="11.940000000000001" width="18.66" />
+   </effect>
+</AnchorPane>
